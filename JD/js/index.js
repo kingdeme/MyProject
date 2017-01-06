@@ -1524,21 +1524,23 @@ $(function () {
     // })
     //头部
     var flag4 = true;
-    $(document).on("click",".jd-toolbar-header",function (event) {
+    $(".jd-toolbar-header").click(function () {
         flag2 = true;
         // flag3 = true;
         $(".jd-toolbar-tab").children(".tab-text").css("display","block");
         if(flag4){
             flag4 = false;
-            $(".jd-toolbar-panel").animate({left:0},500).css({zIndex:2});
-            $(".jd-toolbar-cart").animate({left:350},500).css({zIndex:1});
             $(".jd-toolbar-wrap").addClass("jd-toolbar-wrap-on");
+            $(".jd-toolbar-panel").css({zIndex:2}).animate({left:0},500);
+            $(".jd-toolbar-cart").css({zIndex:1}).animate({left:350},500);
         }else{
             flag4 = true;
             $(".jd-toolbar-wrap").removeClass("jd-toolbar-wrap-on");
         }
-        event.stopPropagation();
-    })
+
+    });
+
+
     $(".content-bag-left").mouseenter(function () {
         $(".content-bag-left-img2").stop().fadeOut();
     }).mouseleave(function () {
@@ -1563,14 +1565,23 @@ $(function () {
     $(".jd-toolbar-tab-top").click(function () {
         $("body").animate({scrollTop:0},0);
     })
+
+    // var flag5 = true;
+    //     $(document).click(function(){
+    //         if(flag5){
+    //             flag2 = true;
+    //             //  flag3 = true;
+    //             flag4 = true;
+    //             $(".jd-toolbar-tab").children(".tab-text").css("display","block");
+    //             $(".jd-toolbar-wrap").removeClass("jd-toolbar-wrap-on");
+    //         }else{
     //
-    // $(document).click(function(){
-    //     flag2 = true;
-    // //    flag3 = true;
-    //     flag4 = true;
-    //     $(".jd-toolbar-tab").children(".tab-text").css("display","block");
-    //     $(".jd-toolbar-wrap").removeClass("jd-toolbar-wrap-on");
-    // })
+    //         }
+    //     })
+
+
+
+
 
 
 
