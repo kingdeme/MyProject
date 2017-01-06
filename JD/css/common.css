@@ -1,0 +1,101 @@
+﻿/*------------------------
+	网页文件公共属性
+	根据平时写demo遇到的问题从大网站上摘下来的初始化css样式表
+	功能不全面的以后再补充
+	需要具体操作到每个元素的时候注意权重问题
+-------------------------*/
+html,body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dt,dd,input,form,fieldset{
+	padding: 0px;
+	margin:0px;	
+}
+/*声明高度自适应*/
+html,body{
+	height: 100%;
+}
+body{
+	/*清除左右滚动条*/
+	overflow-x:none; 
+	font: 12px/24px Arial,Helvetica,'Microsoft Yahei',sans-serif,;
+}
+/*清除列表样式*/
+ul,ol,li{
+	 list-style:none;
+ }
+/*默认字体居中*/
+p,span,i,em,b,u,strong,a{
+	text-align: center;
+}
+/*对a标签样式进行初始化*/
+a{	
+	text-decoration: none;
+	color: #000;
+}
+input{
+	outline:none; 
+}
+fieldset,img{
+	border:0 none;
+}
+/*-------------------------清除浮动部分开始--------------------------*/
+/*以下有三种清除浮动的方法（兼容低版本浏览器）*/
+/*第一种方式,解决高度塌陷问题*/
+.clear{
+	clear:both;
+	height:0;
+	overflow:hidden;
+	display:block;
+	content: '';
+	visibility:hidden;
+}
+.clear {
+	  *height:0;
+	   _overflow:hidden; 
+}
+/*第二种方式
+after伪类清除方法*/
+.clearfix:after{
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both
+}
+.clearfix{
+	zoom:1
+}
+/*第三种清除浮动方式*/
+.clearit{
+	clear:both;
+	height:0;
+	font-size:0;
+	overflow:hidden
+}
+/*------------------------清除浮动部分结束--------------------------*/
+/*表格部分初始化(一般不用暂时注释掉，如果需要再加入)*/
+/*table { 
+	clear:both; 
+}
+table,td,th { 
+	border-collapse:collapse; 
+	border-spacing:0; 
+	line-height:2em; 
+	padding:2px 5px; 
+}
+th { 
+	text-align:left; 
+}*/
+/*删除标签*/
+/*del { 
+	text-decoration:line-through;
+}*/
+/*设置透明度
+数值自己调整*/
+.opacity{
+	 filter:alpha(opacity=40,finishopacity=80,style=1);
+	 -moz-opacity:0.4;
+	 opacity: 0.4;
+}
+/*隐藏元素*/
+.hidden{
+	visibility:hidden;
+}

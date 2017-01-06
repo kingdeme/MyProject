@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="div1"></div>
+    <script >
+        function countDown(){
+            var oDiv = document.getElementById("div1")
+            var dd = new Date("2017/12/01 00:00:00")-new Date();
+            var s = parseInt(dd/1000);
+            var d = parseInt(s/3600/24);
+            s -= d*24*3600;
+            var h = parseInt(s/3600);
+            s -= h*3600;
+            var m = parseInt(s/60);
+            s -= m*60;
+            if(d<10){d = "0"+d};
+            if(h<10){h = "0"+h};
+            if(m<10){m = "0"+m};
+            if(s<10){s = "0"+s};
+            oDiv.innerHTML = "剩余时间："+d+"天"+h+"小时"+m+"分"+s+"秒";
+
+        }
+        setInterval(countDown,1000);
+
+//        function count(){
+//            var endtime=new Date("2017/11/16,9:59:59");//结束时间
+//            var nowtime = new Date();//当前时间
+//            var lefttime=parseInt((endtime.getTime()-nowtime.getTime())/1000);
+//            d=parseInt(lefttime/3600/24);
+//            h=parseInt((lefttime/3600)%24);
+//            m=parseInt((lefttime/60)%60);
+//            s=parseInt(lefttime%60);
+//            if(d>=10){
+//                document.getElementById("LeftTime").innerHTML="剩余时间："+d+"天"+h+"小时"+m+"分"+s+"秒";
+//            }else{
+//                document.getElementById("LeftTime").innerHTML="剩余时间："+"0"+d+"天"+h+"小时"+m+"分"+s+"秒";
+//            }
+//        }
+//        var sh;
+//        sh=setInterval(count,1000);
+    </script>
+</body>
+</html>
