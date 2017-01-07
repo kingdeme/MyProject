@@ -134,4 +134,135 @@ $(function () {
             $(".sidebar-content-item").css("display","none");
         })
     }
+
+    //列表
+    var url1 = "http://localhost:63342/javascript/JD/json/product.json"  //json数据地址
+    $.ajax({
+        url:url1,
+        success:function (product) {
+            var obj = eval(product);
+            productbland(obj)
+            productDom();
+        }
+    })
+    function productbland(obj) {
+        var path = "http://localhost:63342/javascript/JD/img/list/product/"
+        for(var i=0; i<obj.product.length; i++){
+            var li = $('<li class="plist-item-wrap"></li>');
+            var div = $(' <div class="plist-item"></div>');
+            var pimg = $(' <div class="p-img"><a href="javascript:void (0)" class="p-img-lk"><img src="'+path+obj.product[i].imgSrc+'" alt=""></a></div>');
+            if(obj.product[i].picon == true){
+                pimg.append('<div class="p-icon"></div>');
+            };
+            var pprice = $('<div class="p-price"><strong class="p-price-num"><em>￥</em><i>'+obj.product[i].price+'</i></strong></div>');
+            var pname = $(' <div class="p-name"><a href="javascript:void (0)"><em class="p-name-txt">'+obj.product[i].name+'</em><i class="promo-words">'+obj.product[i].words+'</i></a></div>');
+            var commit = $('<div class="p-commit"><strong class="p-commit-comment">已有<a href="javascript:void (0)" class="comment">'+obj.product[i].comment+'</a>人评价</strong></div>');
+            var icons = $('<div class="p-pro-icons"></div>');
+            if(obj.product[i].icons == true){
+                icons.append(' <img src="'+path+obj.product[i].iconsimg+'" class="p-pro-icons-img" alt=""><i class="p-pro-icons-tips"></i>')
+            };
+            var opearate = $(' <div class="p-opearate"><a href="javascript:void (0)" class="p-btn contrast"><i></i>对比</a><a href="javascript:void (0)" class="p-btn focus"><i></i>关注</a><a href="javascript:void (0)" class="p-btn addcart"><i></i>加入购物车</a></div>');
+
+            div.append(pimg).append(pprice).append(pname).append(commit).append(icons).append(opearate);
+            li.append(div);
+            $(".plist-list").append(li);
+        }
+    }
+    function productDom(){
+        $(".plist-item-wrap").mouseenter(function () {
+            $(this).addClass("active");
+        }).mouseleave(function () {
+            $(this).removeClass("active");
+        })
+    }
+
+    //右边栏
+    $(".jd-toolbar-tab").mouseenter(function () {
+        $(this).addClass("jd-toolbar-tab-hover").siblings().removeClass("jd-toolbar-tab-hover");
+    }).mouseleave(function () {
+        $(this).removeClass("jd-toolbar-tab-hover");
+    })
+
+    //购物车
+    var flag2 = true;
+    $(".jd-toolbar-tab-cart").click(function () {
+        $(".jd-toolbar-tab").children(".tab-text").css("display","block");
+        var p = $(this).children(".tab-text");
+        // flag3 = true;
+        flag4 = true;
+        if(flag2){
+            flag2 = false;
+            $(".jd-toolbar-cart").animate({left:0},500).css({zIndex:2});
+            $(".jd-toolbar-panel").animate({left:350},500).css({zIndex:1});
+            $(".jd-toolbar-wrap").addClass("jd-toolbar-wrap-on");
+            p.css("display","none");
+        }else{
+            flag2 = true;
+            $(this).removeClass("jd-toolbar-tab-hover");
+            $(".jd-toolbar-wrap").removeClass("jd-toolbar-wrap-on");
+            p.css("display","block");
+        }
+    })
+    // //我的足迹
+    // var flag3 = true;
+    // $(".jd-toolbar-tab-history").click(function () {
+    //     $(".jd-toolbar-tab").children(".tab-text").css("display","block");
+    //     var p = $(this).children(".tab-text");
+    //     flag2 = true;
+    //     flag4 = true;
+    //     if(flag3){
+    //         flag3 = false;
+    //         $(".jd-toolbar-wrap").addClass("jd-toolbar-wrap-on");
+    //         p.css("display","none");
+    //     }else{
+    //         flag3 = true;
+    //         $(this).removeClass("jd-toolbar-tab-hover");
+    //         $(".jd-toolbar-wrap").removeClass("jd-toolbar-wrap-on");
+    //         p.css("display","block");
+    //     }
+    // })
+    //头部
+    var flag4 = true;
+    $(".jd-toolbar-header").click(function () {
+        flag2 = true;
+        // flag3 = true;
+        $(".jd-toolbar-tab").children(".tab-text").css("display","block");
+        if(flag4){
+            flag4 = false;
+            $(".jd-toolbar-wrap").addClass("jd-toolbar-wrap-on");
+            $(".jd-toolbar-panel").css({zIndex:2}).animate({left:0},500);
+            $(".jd-toolbar-cart").css({zIndex:1}).animate({left:350},500);
+        }else{
+            flag4 = true;
+            $(".jd-toolbar-wrap").removeClass("jd-toolbar-wrap-on");
+        }
+
+    });
+
+
+    $(".content-bag-left").mouseenter(function () {
+        $(".content-bag-left-img2").stop().fadeOut();
+    }).mouseleave(function () {
+        $(".content-bag-left-img2").stop().fadeIn();
+    })
+    $(".jd-toolbar-panel-content-item").mouseenter(function () {
+        $(this).find(".content-item-list").stop().slideDown(300);
+        $(this).find(".content-item-mobilejd").stop().fadeIn(500);
+    }).mouseleave(function () {
+        $(this).find(".content-item-list").stop().slideUp(300);
+        $(this).find(".content-item-mobilejd").stop().fadeOut(500);
+    })
+    $(".close-panel").click(function () {
+        flag2 = true;
+        // flag3 = true;
+        flag4 = true;
+        $(".jd-toolbar-tab").children(".tab-text").css("display","block");
+        $(".jd-toolbar-wrap").removeClass("jd-toolbar-wrap-on");
+    })
+
+    //回到顶部
+    $(".jd-toolbar-tab-top").click(function () {
+        $("body").animate({scrollTop:0},0);
+    })
+
 })
