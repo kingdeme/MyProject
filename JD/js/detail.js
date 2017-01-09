@@ -1,5 +1,6 @@
 /**
- * Created by Administrator on 2017/1/6.
+ *
+ * Created by Administrator on 2017/1/9.
  */
 $(function () {
     var url = "http://localhost:63342/javascript/JD/json/index.json"  //json数据地址
@@ -73,7 +74,6 @@ $(function () {
     $(".bg-banner-act-close").click(function () {
         $(".bg-banner").removeClass("bg-banner-active");
     })
-
 
     //侧边栏
     $.ajax({
@@ -163,134 +163,135 @@ $(function () {
         })
     }
 
-    //列表
-    var url1 = "http://localhost:63342/javascript/JD/json/product.json"  //json数据地址
+    //商品信息
+    //放大镜效果
+    var url1 = "http://localhost:63342/javascript/JD/json/product.json";
+    var spath = "http://localhost:63342/javascript/JD/img/detail/smallimg/"
+    var bpath = "http://localhost:63342/javascript/JD/img/detail/bigimg/"
+    var tpath = "http://localhost:63342/javascript/JD/img/detail/tabimg/"
     $.ajax({
         url:url1,
         success:function (product) {
             var obj = eval(product);
-            productbland(obj)
-            productDom();
+            for(var i=0; i < obj.product.length; i++){
+                if(obj.product[i].id == "001"){
+                    var pid = obj.product[i];
+                    fdj(pid);
+                    fdjDom()
+                }
+            }
         }
-    })
-    function productbland(obj) {
-        var path = "http://localhost:63342/javascript/JD/img/list/product/"
-        for(var i=0; i<obj.product.length; i++){
-            var li = $('<li class="plist-item-wrap"></li>');
-            var div = $(' <div class="plist-item"></div>');
-            var pimg = $(' <div class="p-img"><a href="javascript:void (0)" class="p-img-lk"><img src="'+path+obj.product[i].imgSrc+'" alt=""></a></div>');
-            if(obj.product[i].picon == true){
-                pimg.append('<div class="p-icon"></div>');
-            };
-            var pprice = $('<div class="p-price"><strong class="p-price-num"><em>￥</em><i>'+obj.product[i].price+'</i></strong></div>');
-            var pname = $(' <div class="p-name"><a href="javascript:void (0)"><em class="p-name-txt">'+obj.product[i].name+'</em><i class="promo-words">'+obj.product[i].words+'</i></a></div>');
-            var commit = $('<div class="p-commit"><strong class="p-commit-comment">已有<a href="javascript:void (0)" class="comment">'+obj.product[i].comment+'</a>人评价</strong></div>');
-            var icons = $('<div class="p-pro-icons"></div>');
-            if(obj.product[i].icons == true){
-                icons.append(' <img src="'+path+obj.product[i].iconsimg+'" class="p-pro-icons-img" alt=""><i class="p-pro-icons-tips"></i>')
-            };
-            var opearate = $(' <div class="p-opearate"><a href="javascript:void (0)" class="p-btn contrast"><i></i>对比</a><a href="javascript:void (0)" class="p-btn focus"><i></i>关注</a><a href="javascript:void (0)" class="p-btn addcart"><i></i>加入购物车</a></div>');
 
-            div.append(pimg).append(pprice).append(pname).append(commit).append(icons).append(opearate);
-            li.append(div);
-            $(".plist-list").append(li);
+    })
+    function fdj(obj) {
+        var simg = $('<img class="smallimg" src="'+spath+obj.sImg+'" alt=""><div class="jqzoompup"></div>');
+        $(".jqzoom").append(simg);
+        var bimg = $(' <img src="'+bpath+obj.bImg+'" class="bigimg" alt="">');
+        $(".zoomdiv").append(bimg);
+        var liLength = obj.tImg.length;
+        var ul = $('  <ul class="lh" style="width:'+liLength*62+'px;height: 54px;top: 0;left: 0;position: absolute;"></ul>');
+        for(var k=0; k<obj.tImg.length; k++){
+            var li = $(' <li class="lh-item" imgsrc="'+obj.tImg[k]+'"><img src="'+tpath+obj.tImg[k]+'" class="lh-img" alt=""></li>');
+            ul.append(li);
         }
+        $(".spec-item").append(ul);
     }
-    function productDom(){
-        $(".plist-item-wrap").mouseenter(function () {
-            $(this).addClass("active");
-        }).mouseleave(function () {
-            $(this).removeClass("active");
+    function fdjDom() {
+
+        $(".lh-item").mouseenter(function () {
+            var src = $(this).attr("imgsrc")
+            $(this).children(".lh-img").addClass("img-hover");
+            $(this).siblings().children(".lh-img").removeClass("img-hover");
+            $(".smallimg").attr("src",spath+src);
+            $(".bigimg").attr("src",bpath+src);
+        });
+
+        $(".jqzoom").mouseenter(function () {
+            $(".jqzoompup").css("display","block");
+            $(".zoomdiv").css("display","block");
+        })
+        $(".jqzoom").mouseleave(function () {
+            $(".jqzoompup").css("display","none");
+            $(".zoomdiv").css("display","none");
+        })
+
+        $(".jqzoom").on("mousemove",function (e) {
+            var pageX = e.pageX;
+            var pageY = e.pageY;
+            var jqzoomLeft = $(".jqzoom").offset().left;
+            var jqzoomTop = $(".jqzoom").offset().top;
+            var jqzoomWidth = $(".jqzoom").width();
+            var jqzoomHeight = $(".jqzoom").height();
+            var pupWidth = $(".jqzoompup").width()/2;
+            var pupHeight = $(".jqzoompup").height()/2;
+            var x = pageX-jqzoomLeft-pupWidth;
+            var y = pageY-jqzoomTop-pupHeight;
+
+            if(x<0){
+                x=0;
+            }
+            console.log(jqzoomWidth)
+            console.log(x)
+            if(x > jqzoomWidth-$(".jqzoompup").width()){
+                x = jqzoomWidth-$(".jqzoompup").width()
+            }
+            if(y<0){
+                y=0
+            }
+            if(y>jqzoomHeight-$(".jqzoompup").height()){
+                y = jqzoomHeight-$(".jqzoompup").height()
+            }
+
+            $(".jqzoompup").css({left:x,top:y});
+            $(".bigimg").css({left:-x*3,top:-y*3})
+        })
+
+        var vWidth = $(".spec-item").width();
+        var ulWidth = $(".lh").width();
+        var liWidth = $(".lh-item").width();
+        $(".tab-next").click(function () {
+            $(".tab-prev").removeClass("disabled");
+            var ulLeft = $(".lh").position().left;
+            var x = ulLeft+(-1*liWidth);
+            if(Math.abs(x) > ulWidth-vWidth){
+                x = -(ulWidth-vWidth);
+                $(this).addClass("disabled");
+            }
+            $(".lh").stop().animate({left:x},500);
+        })
+
+        $(".tab-prev").click(function () {
+            $(".tab-next").removeClass("disabled");
+            var ulLeft = $(".lh").position().left;
+            var x = ulLeft+liWidth;
+            if(x>0){
+                x=0;
+                $(this).addClass("disabled");
+            }
+            $(".lh").stop().animate({left:x},500);
         })
     }
 
-    //右边栏
-    $(".jd-toolbar-tab").mouseenter(function () {
-        $(this).addClass("jd-toolbar-tab-hover").siblings().removeClass("jd-toolbar-tab-hover");
-    }).mouseleave(function () {
-        $(this).removeClass("jd-toolbar-tab-hover");
-    })
-
-    //购物车
-    var flag2 = true;
-    $(".jd-toolbar-tab-cart").click(function () {
-        $(".jd-toolbar-tab").children(".tab-text").css("display","block");
-        var p = $(this).children(".tab-text");
-        // flag3 = true;
-        flag4 = true;
-        if(flag2){
-            flag2 = false;
-            $(".jd-toolbar-cart").animate({left:0},500).css({zIndex:2});
-            $(".jd-toolbar-panel").animate({left:350},500).css({zIndex:1});
-            $(".jd-toolbar-wrap").addClass("jd-toolbar-wrap-on");
-            p.css("display","none");
-        }else{
-            flag2 = true;
-            $(this).removeClass("jd-toolbar-tab-hover");
-            $(".jd-toolbar-wrap").removeClass("jd-toolbar-wrap-on");
-            p.css("display","block");
-        }
-    })
-    // //我的足迹
-    // var flag3 = true;
-    // $(".jd-toolbar-tab-history").click(function () {
-    //     $(".jd-toolbar-tab").children(".tab-text").css("display","block");
-    //     var p = $(this).children(".tab-text");
-    //     flag2 = true;
-    //     flag4 = true;
-    //     if(flag3){
-    //         flag3 = false;
-    //         $(".jd-toolbar-wrap").addClass("jd-toolbar-wrap-on");
-    //         p.css("display","none");
-    //     }else{
-    //         flag3 = true;
-    //         $(this).removeClass("jd-toolbar-tab-hover");
-    //         $(".jd-toolbar-wrap").removeClass("jd-toolbar-wrap-on");
-    //         p.css("display","block");
-    //     }
-    // })
-    //头部
-    var flag4 = true;
-    $(".jd-toolbar-header").click(function () {
-        flag2 = true;
-        // flag3 = true;
-        $(".jd-toolbar-tab").children(".tab-text").css("display","block");
-        if(flag4){
-            flag4 = false;
-            $(".jd-toolbar-wrap").addClass("jd-toolbar-wrap-on");
-            $(".jd-toolbar-panel").css({zIndex:2}).animate({left:0},500);
-            $(".jd-toolbar-cart").css({zIndex:1}).animate({left:350},500);
-        }else{
-            flag4 = true;
-            $(".jd-toolbar-wrap").removeClass("jd-toolbar-wrap-on");
-        }
-
-    });
-
-
-    $(".content-bag-left").mouseenter(function () {
-        $(".content-bag-left-img2").stop().fadeOut();
-    }).mouseleave(function () {
-        $(".content-bag-left-img2").stop().fadeIn();
-    })
-    $(".jd-toolbar-panel-content-item").mouseenter(function () {
-        $(this).find(".content-item-list").stop().slideDown(300);
-        $(this).find(".content-item-mobilejd").stop().fadeIn(500);
-    }).mouseleave(function () {
-        $(this).find(".content-item-list").stop().slideUp(300);
-        $(this).find(".content-item-mobilejd").stop().fadeOut(500);
-    })
-    $(".close-panel").click(function () {
-        flag2 = true;
-        // flag3 = true;
-        flag4 = true;
-        $(".jd-toolbar-tab").children(".tab-text").css("display","block");
-        $(".jd-toolbar-wrap").removeClass("jd-toolbar-wrap-on");
-    })
-
-    //回到顶部
-    $(".jd-toolbar-tab-top").click(function () {
-        $("body").animate({scrollTop:0},0);
-    })
+    //京东秒杀
+    //倒计时
+    setInterval(countDown,1000);
+    function countDown(){
+        var dd = new Date("2017/2/01 00:00:00")-new Date();
+        var s = parseInt(dd/1000);
+        var d = parseInt(s/3600/24);
+        s -= d*24*3600;
+        var h = parseInt(s/3600);
+        s -= h*3600;
+        var m = parseInt(s/60);
+        s -= m*60;
+        if(d<10){d = "0"+d};
+        if(h<10){h = "0"+h};
+        if(m<10){m = "0"+m};
+        if(s<10){s = "0"+s};
+        $(".sk-day").html(d)
+        $(".sk-hour").html(h);
+        $(".sk-minute").html(m);
+        $(".sk-seconds").html(s);
+    };
 
 })

@@ -735,12 +735,14 @@ fieldset,img{
     height: 30px;
     line-height: 30px;
     padding-left:10px;
+    border-left:1px solid #b61d1d;
 }
 .sidebar-line{
     font-weight:700;
 }
 .sidebar-list-item.active{
     background-color: #f7f7f7;
+    border-left:1px solid #b61d1d;
 }
 .sidebar-list-item.active .sidebar-txt{
     color: #B61D1D;
@@ -2371,7 +2373,7 @@ fieldset,img{
     background-color: #cc6060;
     background-image: -moz-linear-gradient(top,#cc6060,#b61d1d);
     background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#cc6060),color-stop(1,#b61d1d));
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc6060', endColorstr='#b61d1d', GradientType='0');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc6060', endColorstr='#b61d1d');
     -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc6060', endColorstr='#b61d1d');
     background-image: linear-gradient(to bottom,#cc6060 0,#b61d1d 100%);
 }
