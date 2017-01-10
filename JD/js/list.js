@@ -178,12 +178,12 @@ $(function () {
         for(var i=0; i<obj.product.length; i++){
             var li = $('<li class="plist-item-wrap"></li>');
             var div = $(' <div class="plist-item"></div>');
-            var pimg = $(' <div class="p-img"><a href="javascript:void (0)" class="p-img-lk"><img src="'+path+obj.product[i].imgSrc+'" alt=""></a></div>');
+            var pimg = $(' <div class="p-img"><a href="detail.html?id='+obj.product[i].id+'" target="_blank" class="p-img-lk"><img src="'+path+obj.product[i].imgSrc+'" alt=""></a></div>');
             if(obj.product[i].picon == true){
                 pimg.append('<div class="p-icon"></div>');
             };
             var pprice = $('<div class="p-price"><strong class="p-price-num"><em>￥</em><i>'+obj.product[i].price+'</i></strong></div>');
-            var pname = $(' <div class="p-name"><a href="javascript:void (0)"><em class="p-name-txt">'+obj.product[i].name+'</em><i class="promo-words">'+obj.product[i].words+'</i></a></div>');
+            var pname = $(' <div class="p-name"><a target="_blank"  href="detail.html?id='+obj.product[i].id+'"><em class="p-name-txt">'+obj.product[i].name+'</em><i class="promo-words">'+obj.product[i].words+'</i></a></div>');
             var commit = $('<div class="p-commit"><strong class="p-commit-comment">已有<a href="javascript:void (0)" class="comment">'+obj.product[i].comment+'</a>人评价</strong></div>');
             var icons = $('<div class="p-pro-icons"></div>');
             if(obj.product[i].icons == true){

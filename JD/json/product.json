@@ -5,6 +5,7 @@
       "imgSrc":"01.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -12,13 +13,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bImg":"a01.jpg",
-      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"002",
       "imgSrc":"02.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -26,27 +58,97 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"003",
       "imgSrc":"03.jpg",
       "picon":true,
-      "price":"6599.00",
-      "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
-      "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
-      "comment":"3.2万+",
+      "price":"5499.00",
+      "newprice":"5299.00",
+      "name":"戴尔(DELL) 游匣15PR-2648B 游戏笔记本(i5-6300HQ 4G 128SSD+500G GTX960M 4G独显 IPS Win10 15.6英寸)",
+      "words":"【双硬盘 超强散热！】 960 4G独显 预装128SSD免去动手烦恼 我们比大多数产品 散热好一些",
+      "comment":"1.1万+",
       "icons":true,
       "iconsimg":"jdzy.png",
-      "sImg":"a01.jpg",
-      "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "sImg":"b01.jpg",
+      "bimg":"b01.jpg",
+      "tImg":["b01.jpg","b02.jpg","b03.jpg","b04.jpg","b05.jpg","b06.jpg","b07.jpg","b08.jpg","b09.jpg","b10.jpg"],
+      "attr":[
+        {
+          "attrImg":"b01.jpg",
+          "attrName":"i5-6300HQ 双硬盘 GTX960 4G"
+        },
+        {
+          "attrImg":"b02.jpg",
+          "attrName":"i7-6700HQ 双硬盘 GTX960 4G"
+        },
+        {
+          "attrImg":"b03.jpg",
+          "attrName":"i5-7300H GTX1050Ti 冷峻黑"
+        },
+        {
+          "attrImg":"b04.jpg",
+          "attrName":"游匣2 i5 双硬盘 GTX960 4G 红"
+        },
+        {
+          "attrImg":"b05.jpg",
+          "attrName":"游匣2 i5 双硬盘 GTX960 4G 黑"
+        },
+        {
+          "attrImg":"b06.jpg",
+          "attrName":"i5-7300H GTX1050Ti 双硬盘"
+        },
+        {
+          "attrImg":"b07.jpg",
+          "attrName":"游匣2 i7 双硬盘 GTX960 4G 黑"
+        },
+        {
+          "attrImg":"b08.jpg",
+          "attrName":"i7-7700H GTX1050Ti 冷峻黑"
+        },
+        {
+          "attrImg":"b09.jpg",
+          "attrName":"游匣2 i7 双硬盘 GTX960 4G 红"
+        }
+      ]
     },
     {
       "id":"004",
       "imgSrc":"04.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -54,13 +156,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"005",
       "imgSrc":"05.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -68,13 +201,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"006",
       "imgSrc":"06.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -82,13 +246,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"007",
       "imgSrc":"07.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -96,13 +291,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"008",
       "imgSrc":"08.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -110,13 +336,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"009",
       "imgSrc":"09.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -124,13 +381,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"0010",
       "imgSrc":"10.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -138,13 +426,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"011",
       "imgSrc":"11.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -152,13 +471,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"012",
       "imgSrc":"12.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -166,13 +516,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"013",
       "imgSrc":"13.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -180,13 +561,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"014",
       "imgSrc":"14.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -194,13 +606,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"015",
       "imgSrc":"15.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -208,13 +651,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"016",
       "imgSrc":"16.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -222,13 +696,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"017",
       "imgSrc":"17.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -236,13 +741,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"018",
       "imgSrc":"18.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -250,13 +786,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"019",
       "imgSrc":"19.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -264,13 +831,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"020",
       "imgSrc":"20.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -278,13 +876,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"021",
       "imgSrc":"21.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -292,13 +921,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"022",
       "imgSrc":"22.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -306,13 +966,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"023",
       "imgSrc":"23.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -320,13 +1011,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"024",
       "imgSrc":"24.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -334,13 +1056,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"025",
       "imgSrc":"25.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -348,13 +1101,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"026",
       "imgSrc":"26.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -362,13 +1146,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"027",
       "imgSrc":"27.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -376,13 +1191,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"028",
       "imgSrc":"28.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -390,13 +1236,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"029",
       "imgSrc":"29.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -404,13 +1281,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"030",
       "imgSrc":"30.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -418,13 +1326,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"031",
       "imgSrc":"31.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -432,13 +1371,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"032",
       "imgSrc":"32.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -446,13 +1416,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"033",
       "imgSrc":"33.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -460,13 +1461,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"034",
       "imgSrc":"34.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -474,13 +1506,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"035",
       "imgSrc":"35.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -488,13 +1551,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"036",
       "imgSrc":"36.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -502,13 +1596,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"037",
       "imgSrc":"37.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -516,13 +1641,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"038",
       "imgSrc":"38.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -530,13 +1686,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"039",
       "imgSrc":"39.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -544,13 +1731,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"040",
       "imgSrc":"40.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -558,13 +1776,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"041",
       "imgSrc":"41.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -572,13 +1821,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"042",
       "imgSrc":"42.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -586,13 +1866,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"043",
       "imgSrc":"43.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -600,13 +1911,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"044",
       "imgSrc":"44.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -614,13 +1956,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"045",
       "imgSrc":"45.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -628,13 +2001,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"046",
       "imgSrc":"46.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -642,13 +2046,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"047",
       "imgSrc":"47.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -656,13 +2091,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"048",
       "imgSrc":"48.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -670,13 +2136,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"049",
       "imgSrc":"49.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -684,13 +2181,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"050",
       "imgSrc":"50.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -698,13 +2226,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"051",
       "imgSrc":"51.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -712,13 +2271,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"052",
       "imgSrc":"52.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -726,13 +2316,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"053",
       "imgSrc":"53.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -740,13 +2361,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"054",
       "imgSrc":"54.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -754,13 +2406,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"055",
       "imgSrc":"55.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -768,13 +2451,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"056",
       "imgSrc":"56.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -782,13 +2496,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"057",
       "imgSrc":"57.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -796,13 +2541,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"058",
       "imgSrc":"58.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -810,13 +2586,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"059",
       "imgSrc":"59.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -824,13 +2631,44 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     },
     {
       "id":"060",
       "imgSrc":"60.jpg",
       "picon":true,
       "price":"6599.00",
+      "newprice":"6399.00",
       "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
       "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
       "comment":"3.2万+",
@@ -838,7 +2676,37 @@
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
       "bimg":"a01.jpg",
-      "timg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"]
+      "tImg":["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg","a06.jpg","a07.jpg","a08.jpg","a09.jpg","a10.jpg"],
+      "attr":[
+        {
+          "attrImg":"01.jpg",
+          "attrName":"17.3英寸Y910旗舰【32G内存】"
+        },
+        {
+          "attrImg":"02.jpg",
+          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"03.jpg",
+          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+        },
+        {
+          "attrImg":"04.jpg",
+          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+        },
+        {
+          "attrImg":"05.jpg",
+          "attrName":"15.6英寸拯救者【i7 双硬盘】"
+        },
+        {
+          "attrImg":"06.jpg",
+          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
+        },
+        {
+          "attrImg":"07.jpg",
+          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+        }
+      ]
     }
   ]
 }
