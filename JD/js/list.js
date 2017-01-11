@@ -293,4 +293,6 @@ $(function () {
         $("body").animate({scrollTop:0},0);
     })
 
+    $(".tab-count").html(getTotal());
+
 })

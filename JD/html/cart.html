@@ -7,6 +7,7 @@
     <script src="../library/jquery-1.11.3.js"></script>
     <script src="../library/jquery.easing.1.3.js"></script>
     <script src="../library/jquery.cookie.js"></script>
+    <script src="../library/good.js"></script>
     <script src="../js/cart.js"></script>
 </head>
 <body>
@@ -344,6 +345,146 @@
                             <div class="column t-number">数量</div>
                             <div class="column t-sum">小计</div>
                             <div class="column t-active">操作</div>
+                        </div>
+                        <div class="cart-list">
+                            <div class="cart-item-list">
+                                <div class="cart-tbody">
+                                    <div class="shop">
+                                        <div class="cart-checkbox">
+                                            <input type="checkbox" checked="checked" class="jdchecked">
+                                        </div>
+                                        <span class="shop-txt">
+                                            <a href="javascript:void (0)" class="shop-name">京东自营</a>
+                                        </span>
+                                        <div class="shop-freight">
+                                            <span class="fw-info-flag">
+                                                满¥199免运费(20kg内)
+                                            </span>
+                                            已免运费
+                                        </div>
+                                    </div>
+                                    <div class="shop-item-list">
+                                        <!--<div class="item-full">-->
+                                            <!--<div class="item-header clearfix">-->
+                                                <!--<div class="f-txt">-->
+                                                    <!--<a href="javascript:void (0)">-->
+                                                        <!--<span class="full-icon">-->
+                                                            <!--换购-->
+                                                            <!--<b></b>-->
+                                                        <!--</span>-->
+                                                        <!--活动商品已购满¥2999.00-->
+                                                        <!--，可加价换购商品1件-->
+                                                    <!--</a>-->
+                                                    <!--<a href="javascript:void (0)" class="btn-1">换购商品</a>-->
+                                                    <!--<a href="javascript:void (0)" class="btn-2">&nbsp;去凑单&nbsp;></a>-->
+                                                <!--</div>-->
+                                                <!--<div class="f-price">-->
+                                                    <!--<strong>￥14999.00</strong>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                            <!--<div class="item-item clearfix">-->
+                                                <!--<div class="item-form">-->
+                                                    <!--<div class="cell p-checkbox">-->
+                                                        <!--<div class="cart-checkbox">-->
+                                                            <!--<input type="checkbox" name="checkItem" checked="checked" class="itemcheckbox">-->
+                                                            <!--<span class="line-cirlce"></span>-->
+                                                        <!--</div>-->
+                                                    <!--</div>-->
+                                                    <!--<div class="cell p-goods">-->
+                                                        <!--<div class="goods-item clearfix">-->
+                                                            <!--<div class="p-img">-->
+                                                                <!--<a href="javascript:void (0)"><img-->
+                                                                        <!--src="../img/list/product/01.jpg" alt=""></a>-->
+                                                            <!--</div>-->
+                                                            <!--<div class="item-msg">-->
+                                                                <!--<div class="p-name">-->
+                                                                    <!--<a href="javascript:void (0)">联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑</a>-->
+                                                                <!--</div>-->
+                                                                <!--<div class="p-extend">-->
+                                                                    <!--<span class="promise"></span>-->
+                                                                    <!--<span class="promise">-->
+                                                                        <!--<i class="jd-service-icon"></i>-->
+                                                                        <!--<a href="javascript:void (0)" class="jd-service">购买增值保障</a>-->
+                                                                    <!--</span>-->
+                                                                <!--</div>-->
+                                                            <!--</div>-->
+                                                        <!--</div>-->
+
+                                                    <!--</div>-->
+                                                    <!--<div class="cell p-props">-->
+                                                        <!--<div class="props-txt">-->
+                                                            <!--颜色：15.6英寸拯救者【i7 1T硬盘】-->
+                                                        <!--</div>-->
+                                                    <!--</div>-->
+                                                    <!--<div class="cell p-price">-->
+                                                        <!--<strong>￥5999.00</strong>-->
+                                                        <!--<a href="javascript:void (0)" class="sales-promotion">更多促销</a>-->
+                                                    <!--</div>-->
+                                                    <!--<div class="cell p-quantity">-->
+                                                        <!--<div class="quantity-form">-->
+                                                            <!--<a href="javascript:void (0)" class="down disabled">-</a>-->
+                                                            <!--<input type="text" class="itxt" value="1">-->
+                                                            <!--<a href="javascript:void (0)" class="add">+</a>-->
+                                                        <!--</div>-->
+                                                        <!--<div class="quantity-txt">有货</div>-->
+                                                    <!--</div>-->
+                                                    <!--<div class="cell p-sum">-->
+                                                        <!--<strong>￥5999.00</strong>-->
+                                                        <!--<span class="weight">3.86kg</span>-->
+                                                    <!--</div>-->
+                                                    <!--<div class="cell p-ops">-->
+                                                        <!--<a href="javascript:void (0)" class="remove">删除</a>-->
+                                                        <!--<a href="javascript:void (0)" class="cart-follow">移到我的关注</a>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        <!--</div>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-floatbar clearfix">
+                    <div class="cart-toolbar">
+                        <div class="toolbar-wrap">
+                            <div class="options-box">
+                                <div class="select-all">
+                                    <div class="cart-checkbox">
+                                        <input type="checkbox" checked="checked" class="jdchecked">
+                                    </div>
+                                    全选
+                                </div>
+                                <div class="operation">
+                                    <a href="javascript:void (0)" class="remove-batch">删除选中商品</a>
+                                    <a href="javascript:void (0)" class="follow-batch">移到我的关注</a>
+                                    <a href="javascript:void (0)">清除下柜商品</a>
+                                </div>
+                                <div class="toolbar-right">
+                                    <div class="normal">
+                                        <div class="comm-rigth">
+                                            <div class="btn-area">
+                                                <a href="javascript:void (0)" class="submit-btn">
+                                                    去结算
+                                                    <b></b>
+                                                </a>
+                                            </div>
+                                            <div class="price-sum">
+                                                <div>
+                                                    <span class="txt-new">总价：</span>
+                                                    <span class="price-new">
+                                                        <em>￥0.00</em>
+                                                    </span>
+                                                    <b class="price-tips"></b>
+                                                    <br>
+                                                    <span class="txt-new">已节省：</span>
+                                                    <span class="price-new">-￥0.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

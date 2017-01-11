@@ -1579,6 +1579,7 @@ $(function () {
     //         }
     //     })
 
+    $(".tab-count").html(getTotal());
 
 
 

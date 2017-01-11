@@ -94,7 +94,7 @@ $(function () {
             var li = $('<li class="sidebar-list-item"></li>');
             $(".sidebar-list").append(li)
             for(var j=0;j<obj.sidebar[i].sidebarName.length; j++){
-                li.append('<a class="sidebar-txt" href="javascript:void(0)">'+obj.sidebar[i].sidebarName[j]+'</a><span class="sidebar-line">、</span>');
+                li.append('<a class="sidebar-txt" href="list.html">'+obj.sidebar[i].sidebarName[j]+'</a><span class="sidebar-line">、</span>');
             }
         }
         $(".sidebar-list-item .sidebar-line:last-child").remove();
@@ -171,7 +171,7 @@ $(function () {
     var tpath = "http://localhost:63342/javascript/JD/img/detail/tabimg/"
     var webId = window.location.search.replace(/\?/," ").split("=");
     console.log(webId);
-    var pro_id = webId[1]
+    var pro_id = webId[1];
     $.ajax({
         url:url1,
         success:function (product) {
@@ -182,7 +182,8 @@ $(function () {
                     fdj(pid);
                     fdjDom()
                     addproduct(pid);
-                    productDom()
+                    productDom();
+                    addcookie()
                 }
             }
         }
@@ -284,7 +285,7 @@ $(function () {
 
         $(".comment-count").append('<p class="comment">累计评价</p><a href="javascript:void (0)" class="count">'+obj.comment+'</a>')
 
-        $(".summary-price").append(' <div class="p-main"><strong class="p-price">'+obj.newprice+'</strong><span class="pricing">[<del class="origin-price">'+obj.price+'</del>]</span><a href="javascript:void (0)" class="">(降价通知)</a></div>');
+        $(".summary-price").append(' <div class="p-main"><strong class="p-price">￥'+obj.newprice+'</strong><span class="pricing">[<del class="origin-price">'+obj.price+'</del>]</span><a href="javascript:void (0)" class="">(降价通知)</a></div>');
 
         for(var i=0; i<obj.attr.length; i++){
             $(".attr-main").append('<div class="attr-item"><a class="attr-item-lk" href="javascript:void (0)"><img src="'+path+obj.attr[i].attrImg+'" alt="" class="attr-item-img"><i class="attr-item-name">'+obj.attr[i].attrName+'</i></a></div>')
@@ -421,7 +422,64 @@ $(function () {
         $("body").animate({scrollTop:0},0);
     })
 
+    //数量加减
+    var buyNum = Number($("#buy-num").val());
+    console.log(buyNum)
+    $(".btn-add").click(function () {
+        $(".btn-reduce").removeClass("disabled");
+        buyNum++;
+        if(buyNum == 99){
+            buyNum = 99;
+            $(this).addClass("disabled");
+        }
+        $("#buy-num").val(buyNum);
+    })
 
+    $(".btn-reduce").click(function () {
+        buyNum--;
+        if(buyNum < 1){
+            buyNum = 1
+            $(this).addClass("disabled");
+        }
+        $("#buy-num").val(buyNum);
+    })
 
+    // var buyNum = $("#buy-num").val()
+    // console.log(buyNum);
+    //添加购物车
 
+    $(".tab-count").html(getTotal());
+    function addcookie() {
+        $(".cart-btn").click(function () {
+            var color = $(".attr-item.active .attr-item-name").html();
+            var isHas = checkGoodsId(pro_id,color);
+            if(isHas){
+                // checkGoodscolor(color);
+                updateGoodCount(pro_id,color,buyNum);
+            }else{
+                var imgSrc =$(".smallimg").attr("src");
+                console.log(imgSrc)//获取图片的路径；
+                var pName = $(".name-tit").html(); //获取商品的名称
+                console.log(pName)
+                var desc = $(".attr-item.active .attr-item-name").html();//获取商品的颜色
+                console.log(desc)
+                var price = Number($(".p-price").html().split("￥")[1]).toFixed(2);//获取价格
+                console.log(price)
+                var weight =Number($(".weight-main").html().split("kg")[0]).toFixed(2);
+                console.log(weight)
+                var good = {
+                        pid:pro_id,
+                        imgSrc:imgSrc,
+                        pName:pName,
+                        desc:[desc],
+                        price:price,
+                        weight:weight,
+                        count:buyNum
+                }
+                 addGoodToCar(good);
+                 console.log(good)
+            }
+            $(".tab-count").html(getTotal());
+        })
+    }
 })
