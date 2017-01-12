@@ -2,7 +2,7 @@
  * Created by Administrator on 2017/1/10.
  */
 $(function () {
-    var url = "http://localhost:63342/javascript/JD/json/index.json"  //json数据地址
+    var url = "../json/index.json"  //json数据地址
 
 //    快捷导航 左半部分 位置
     $(".sm-left").mouseenter(function () {
@@ -195,6 +195,7 @@ $(function () {
             getTotalPrice();
         }
     })
+
 
 
 

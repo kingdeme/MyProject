@@ -2,7 +2,7 @@
  * Created by Administrator on 2017/1/6.
  */
 $(function () {
-    var url = "http://localhost:63342/javascript/JD/json/index.json"  //json数据地址
+    var url = "../json/index.json"  //json数据地址
 
 //    快捷导航 左半部分 位置
     $(".sm-left").mouseenter(function () {
@@ -133,7 +133,7 @@ $(function () {
             }
 
             //便利右半部的数据
-            var path = "http://localhost:63342/javascript/JD/img/index/cbl/"
+            var path = "../img/index/cbl/"
             for(var d=0; d<obj.sidebar[i].sidebarSmallImg.length; d++){
                 itemRightSimg.append(' <a href="javascript:void (0)" class="simg-lk"><img src="'+path+obj.sidebar[i].sidebarSmallImg[d]+'" alt=""></a>');
             }
@@ -164,7 +164,7 @@ $(function () {
     }
 
     //列表
-    var url1 = "http://localhost:63342/javascript/JD/json/product.json"  //json数据地址
+    var url1 = "../json/product.json"  //json数据地址
     $.ajax({
         url:url1,
         success:function (product) {
@@ -174,7 +174,7 @@ $(function () {
         }
     })
     function productbland(obj) {
-        var path = "http://localhost:63342/javascript/JD/img/list/product/"
+        var path = "../img/list/product/"
         for(var i=0; i<obj.product.length; i++){
             var li = $('<li class="plist-item-wrap"></li>');
             var div = $(' <div class="plist-item"></div>');
@@ -294,5 +294,23 @@ $(function () {
     })
 
     $(".tab-count").html(getTotal());
+    $(".ci-count").html(getTotal());
 
+    $("#settleup").click(function () {
+        location.href = "cart.html";
+    })
+
+	
+	$("#settleup").click(function () {
+        location.href = "html/cart.html";
+    })
+	
+	var userName =$.cookie("userName")
+	if(userName){
+		$("#sm-login").html('<a href="javascript:void(0)">欢迎您，'+userName+'</a>&nbsp;&nbsp;<a href="javascript:void(0)" class="esc">退出</a>');
+		$(".esc").click(function(){
+			$.cookie("userName","",{expires:7,path:"/"});
+			$("#sm-login").html(' <a href="html/login.html">你好，请登录</a>&nbsp;&nbsp;<a href="html/register.html" style="color: #f10215;">免费注册</a>');
+		})
+	}
 })

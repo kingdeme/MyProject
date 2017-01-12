@@ -3,7 +3,7 @@
  * Created by Administrator on 2017/1/9.
  */
 $(function () {
-    var url = "http://localhost:63342/javascript/JD/json/index.json"  //json数据地址
+    var url = "../json/index.json"  //json数据地址
 
 //    快捷导航 左半部分 位置
     $(".sm-left").mouseenter(function () {
@@ -133,7 +133,7 @@ $(function () {
             }
 
             //便利右半部的数据
-            var path = "http://localhost:63342/javascript/JD/img/index/cbl/"
+            var path = "../img/index/cbl/"
             for(var d=0; d<obj.sidebar[i].sidebarSmallImg.length; d++){
                 itemRightSimg.append(' <a href="javascript:void (0)" class="simg-lk"><img src="'+path+obj.sidebar[i].sidebarSmallImg[d]+'" alt=""></a>');
             }
@@ -165,10 +165,10 @@ $(function () {
 
     //商品信息
     //放大镜效果
-    var url1 = "http://localhost:63342/javascript/JD/json/product.json";
-    var spath = "http://localhost:63342/javascript/JD/img/detail/smallimg/"
-    var bpath = "http://localhost:63342/javascript/JD/img/detail/bigimg/"
-    var tpath = "http://localhost:63342/javascript/JD/img/detail/tabimg/"
+    var url1 = "../json/product.json";
+    var spath = "../img/detail/smallimg/"
+    var bpath = "../img/detail/bigimg/"
+    var tpath = "../img/detail/tabimg/"
     var webId = window.location.search.replace(/\?/," ").split("=");
     console.log(webId);
     var pro_id = webId[1];
@@ -280,7 +280,7 @@ $(function () {
     //京东秒杀
     //倒计时
     function addproduct(obj) {
-        var path = "http://localhost:63342/javascript/JD/img/detail/attr/"
+        var path = "../img/detail/attr/"
         $(".name").append('<h1 class="name-tit">'+obj.name+'</h1><div class="p-ad">'+obj.words+'</div>');
 
         $(".comment-count").append('<p class="comment">累计评价</p><a href="javascript:void (0)" class="count">'+obj.comment+'</a>')
@@ -421,6 +421,19 @@ $(function () {
     $(".jd-toolbar-tab-top").click(function () {
         $("body").animate({scrollTop:0},0);
     })
+    
+    $("#settleup").click(function () {
+        location.href = "html/cart.html";
+    })
+	
+	var userName =$.cookie("userName")
+	if(userName){
+		$("#sm-login").html('<a href="javascript:void(0)">欢迎您，'+userName+'</a>&nbsp;&nbsp;<a href="javascript:void(0)" class="esc">退出</a>');
+		$(".esc").click(function(){
+			$.cookie("userName","",{expires:7,path:"/"});
+			$("#sm-login").html(' <a href="html/login.html">你好，请登录</a>&nbsp;&nbsp;<a href="html/register.html" style="color: #f10215;">免费注册</a>');
+		})
+	}
 
     //数量加减
     var buyNum = Number($("#buy-num").val());
@@ -444,10 +457,14 @@ $(function () {
         $("#buy-num").val(buyNum);
     })
 
+    $("#settleup").click(function () {
+        location.href = "cart.html";
+    })
+
     // var buyNum = $("#buy-num").val()
     // console.log(buyNum);
     //添加购物车
-
+    $(".ci-count").html(getTotal());
     $(".tab-count").html(getTotal());
     function addcookie() {
         $(".cart-btn").click(function () {

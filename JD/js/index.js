@@ -3,7 +3,7 @@
  */
 $(function () {
 
-    var url = "http://localhost:63342/javascript/JD/json/index.json"  //json数据地址
+    var url = "json/index.json"  //json数据地址
 
     // 头部广告的关闭
     $(".ad-close").click(function () {
@@ -138,7 +138,7 @@ $(function () {
             }
 
             //便利右半部的数据
-            var path = "http://localhost:63342/javascript/JD/img/index/cbl/"
+            var path = "img/index/cbl/"
             for(var d=0; d<obj.sidebar[i].sidebarSmallImg.length; d++){
                 itemRightSimg.append(' <a href="html/list.html" class="simg-lk"><img src="'+path+obj.sidebar[i].sidebarSmallImg[d]+'" alt=""></a>');
             }
@@ -164,7 +164,7 @@ $(function () {
     }
 
     //轮播图
-    var path = "http://localhost:63342/javascript/JD/img/index/lbt/"
+    var path = "img/index/lbt/"
     $.ajax({
         url:url,
         success:function (slider) {
@@ -351,7 +351,7 @@ $(function () {
         url:url,
         success:function (seckill) {
             var obj = eval(seckill);
-            var path = "http://localhost:63342/javascript/JD/img/index/seckill/"
+            var path = "img/index/seckill/"
             for(var i=0; i<obj.seckill.length; i++){
                 var li = $("<li class='sk-list-item'></li>"); //创建Li
                 var pic = $('<div class="sk-item-pic"></div>');//创建 上半部分
@@ -376,7 +376,7 @@ $(function () {
         url:url,
         success:function (coupon) {
             var obj = eval(coupon);
-            var path = "http://localhost:63342/javascript/JD/img/index/coupon/"
+            var path = "img/index/coupon/"
             for(var i=0; i<obj.coupon.length; i++){
                 $(".coupon-list").append(' <li class="coupon-item"><a href="html/list.html" class="coupon-item-lk"><div class="coupon-info"><p class="coupon-price"><i>￥</i>'+obj.coupon[i].price+'</p><p class="coupon-desc"><i class="mod-ver"></i><span class="coupon-desc-txt">'+obj.coupon[i].desc+'</span></p><p class="coupon-limit"><i class="mod-ver"></i><span class="coupon-limit-txt">'+obj.coupon[i].limit+'</span></p><p class="coupon-more">'+obj.coupon[i].more+'</p></div><img src="'+path+obj.coupon[i].imgSrc+'" class="coupon-img" alt=""></a><span class="coupon-item-shadow"></span></li>')
             }
@@ -389,7 +389,7 @@ $(function () {
         url:url,
         success:function (find) {
             var obj = eval(find);
-            var path = "http://localhost:63342/javascript/JD/img/index/fbt/find/"
+            var path = "img/index/fbt/find/"
             for(var i=0; i<obj.find.length; i++){
                 var num = i+1;
                 $(".find-list").append(' <li class="find-item find-item'+num+'"><a href="html/list.html" class="find-item-lk"><p class="find-item-name">'+obj.find[i].names+'</p><img src="'+path+obj.find[i].imgSrc+'" alt="" class="find-item-img"></a></li>')
@@ -411,7 +411,7 @@ $(function () {
     })
     //加载
     function jiazai(obj){
-        var path = "http://localhost:63342/javascript/JD/img/index/fbt/top/"
+        var path = "img/index/fbt/top/"
         for(var i=0; i<obj.top.length; i++){
             var a = $('<a href="html/list.html" class="top-bottom-head-item">'+obj.top[i].topName+'</a>');
             var ul = $('<ul class="top-bottom-content-list clearfix"></ul>')
@@ -444,7 +444,7 @@ $(function () {
         url:url,
         success:function (entry) {
             var obj = eval(entry);
-            var path = "http://localhost:63342/javascript/JD/img/index/entry/"
+            var path = "img/index/entry/"
             for(var i=0; i<obj.entry.length; i++){
                 var num = i+1;
                 $(".entry-list").append(' <li class="entry-item entry-item-'+num+'"><a href="html/list.html" class="entry-lk"><div class="entry-bg" style="background: '+obj.entry[i].bgColor+';"><div class="entry-info"><h4 class="entry-info-tit">'+obj.entry[i].tit+'</h4><p class="entry-info-desc">'+obj.entry[i].desc+'</p></div></div><img src="'+path+obj.entry[i].imgSrc+'" class="entry-img" alt=""></a></li>');
@@ -456,7 +456,7 @@ $(function () {
     })
 
 //    服装城
-    var url1 = "http://localhost:63342/javascript/JD/json/clothBeauty.json"  //json数据地址
+    var url1 = "json/clothBeauty.json"  //json数据地址
     $.ajax({
         url:url1,
         success:function (clothBeauty) {
@@ -470,8 +470,8 @@ $(function () {
         }
     })
     function  cloth(obj){
-        var path = "http://localhost:63342/javascript/JD/img/index/chn/";
-        var pathLogo = "http://localhost:63342/javascript/JD/img/index/chn/logo/"
+        var path = "img/index/chn/";
+        var pathLogo = "img/index/chn/logo/"
         for(var i=0; i<obj.clothBeauty.length; i++){
             var a = i+1;
             var divCol = $('<div class="chn-col chn-col-'+a+'"></div>');//最外面的模块
@@ -572,7 +572,7 @@ $(function () {
     }
 
     //    家电手机
-    var url2 = "http://localhost:63342/javascript/JD/json/phone.json"  //json数据地址
+    var url2 = "json/phone.json"  //json数据地址
     $.ajax({
         url:url2,
         success:function (clothBeauty) {
@@ -586,8 +586,8 @@ $(function () {
         }
     })
     function  phone(obj){
-        var path = "http://localhost:63342/javascript/JD/img/index/phone/";
-        var pathLogo = "http://localhost:63342/javascript/JD/img/index/phone/logo/"
+        var path = "img/index/phone/";
+        var pathLogo = "img/index/phone/logo/"
         for(var i=0; i<obj.clothBeauty.length; i++){
             var a = i+1;
             var divCol = $('<div class="chn-col chn-col-'+a+'"></div>');//最外面的模块
@@ -688,7 +688,7 @@ $(function () {
     }
 
     //电脑数码
-    var url3 = "http://localhost:63342/javascript/JD/json/computer.json"  //json数据地址
+    var url3 = "json/computer.json"  //json数据地址
     $.ajax({
         url:url3,
         success:function (clothBeauty) {
@@ -702,8 +702,8 @@ $(function () {
         }
     })
     function  computer(arr){
-        var path = "http://localhost:63342/javascript/JD/img/index/computer/";
-        var pathLogo = "http://localhost:63342/javascript/JD/img/index/computer/logo/"
+        var path = "img/index/computer/";
+        var pathLogo = "img/index/computer/logo/"
         for(var i=0; i<arr.clothBeauty.length; i++){
             var a = i+1;
             var divCol = $('<div class="chn-col chn-col-'+a+'"></div>');//最外面的模块
@@ -805,7 +805,7 @@ $(function () {
     }
 
     //   玩3C运动
-    var url4 = "http://localhost:63342/javascript/JD/json/3c.json"  //json数据地址
+    var url4 = "json/3c.json"  //json数据地址
     $.ajax({
         url:url4,
         success:function (clothBeauty) {
@@ -819,8 +819,8 @@ $(function () {
         }
     })
     function  sport(obj){
-        var path = "http://localhost:63342/javascript/JD/img/index/3c/";
-        var pathLogo = "http://localhost:63342/javascript/JD/img/index/3c/logo/"
+        var path = "img/index/3c/";
+        var pathLogo = "img/index/3c/logo/"
         for(var i=0; i<obj.clothBeauty.length; i++){
             var a = i+1;
             var divCol = $('<div class="chn-col chn-col-'+a+'"></div>');//最外面的模块
@@ -923,7 +923,7 @@ $(function () {
     }
 
     //爱吃
-    var url5 = "http://localhost:63342/javascript/JD/json/eat.json"  //json数据地址
+    var url5 = "json/eat.json"  //json数据地址
     $.ajax({
         url:url5,
         success:function (clothBeauty) {
@@ -937,8 +937,8 @@ $(function () {
         }
     })
     function  eat(arr){
-        var path = "http://localhost:63342/javascript/JD/img/index/eat/";
-        var pathLogo = "http://localhost:63342/javascript/JD/img/index/eat/logo/"
+        var path = "img/index/eat/";
+        var pathLogo = "img/index/eat/logo/"
         for(var i=0; i<arr.clothBeauty.length; i++){
             var a = i+1;
             var divCol = $('<div class="chn-col chn-col-'+a+'"></div>');//最外面的模块
@@ -1040,7 +1040,7 @@ $(function () {
     }
 
     //   爱宝宝爱家
-    var url6 = "http://localhost:63342/javascript/JD/json/baby.json"  //json数据地址
+    var url6 = "json/baby.json"  //json数据地址
     $.ajax({
         url:url6,
         success:function (clothBeauty) {
@@ -1054,8 +1054,8 @@ $(function () {
         }
     })
     function  baby(obj){
-        var path = "http://localhost:63342/javascript/JD/img/index/babyfamily/";
-        var pathLogo = "http://localhost:63342/javascript/JD/img/index/babyfamily/logo/"
+        var path = "img/index/babyfamily/";
+        var pathLogo = "img/index/babyfamily/logo/"
         for(var i=0; i<obj.clothBeauty.length; i++){
             var a = i+1;
             var divCol = $('<div class="chn-col chn-col-'+a+'"></div>');//最外面的模块
@@ -1157,7 +1157,7 @@ $(function () {
     }
 
     //  爱读书爱车
-    var url7 = "http://localhost:63342/javascript/JD/json/readcar.json"  //json数据地址
+    var url7 = "json/readcar.json"  //json数据地址
     $.ajax({
         url:url7,
         success:function (clothBeauty) {
@@ -1171,8 +1171,8 @@ $(function () {
         }
     })
     function  read(obj){
-        var path = "http://localhost:63342/javascript/JD/img/index/readcar/";
-        var pathLogo = "http://localhost:63342/javascript/JD/img/index/readcar/logo/"
+        var path = "img/index/readcar/";
+        var pathLogo = "img/index/readcar/logo/"
         for(var i=0; i<obj.clothBeauty.length; i++){
             var a = i+1;
             var divCol = $('<div class="chn-col chn-col-'+a+'"></div>');//最外面的模块
@@ -1274,7 +1274,7 @@ $(function () {
     }
 
     //虚拟
-    var url8 = "http://localhost:63342/javascript/JD/json/xuni.json"  //json数据地址
+    var url8 = "json/xuni.json"  //json数据地址
     $.ajax({
         url:url8,
         success:function (clothBeauty) {
@@ -1288,8 +1288,8 @@ $(function () {
         }
     })
     function  xuni(arr){
-        var path = "http://localhost:63342/javascript/JD/img/index/xuni/";
-        var pathLogo = "http://localhost:63342/javascript/JD/img/index/xuni/logo/"
+        var path = "img/index/xuni/";
+        var pathLogo = "img/index/xuni/logo/"
         for(var i=0; i<arr.clothBeauty.length; i++){
             var a = i+1;
             var divCol = $('<div class="chn-col chn-col-'+a+'"></div>');//最外面的模块
@@ -1397,7 +1397,7 @@ $(function () {
         url:url,
         success:function (gts) {
             var obj = eval(gts);
-            var path = "http://localhost:63342/javascript/JD/img/index/gts/";
+            var path = "img/index/gts/";
             for(var i=0; i<obj.gts.length; i++){
                 $(".gts-list").append('<li class="gts-item"><a href="html/list.html" class="gts-lk"><div class="gts-bg" style="background-color:'+obj.gts[i].bgcolor+'"><div class="gts-info"><h4 class="gts-info-tit">'+obj.gts[i].tit+'</h4><p class="gts-info-desc">'+obj.gts[i].desc+'</p></div></div><img src="'+path+obj.gts[i].imgSrc+'" class="gts-img" alt=""></a></li>')
             }
@@ -1405,12 +1405,12 @@ $(function () {
     })
 
     //还没逛够
-    var url9 = "http://localhost:63342/javascript/JD/json/more.json"  //json数据地址
+    var url9 = "json/more.json"  //json数据地址
     $.ajax({
         url:url9,
         success:function (more) {
             var obj = eval(more);
-            var path = "http://localhost:63342/javascript/JD/img/index/more/";
+            var path = "img/index/more/";
             for(var i=0; i<obj.more.length; i++){
                 var num = i+1
                 $(".more-list").append('<li class="more-item more-item-'+num+'"><a href="html/list.html" class="more-item-lk"><img src="'+path+obj.more[i].imgSrc+'" class="more-img" alt=""><div class="more-info"><p class="more-info-name">'+obj.more[i].name+'</p><p class="more-info-price"><i>￥</i><span class="more-info-price-txt">'+obj.more[i].price+'</span></p></div></a></li>')
@@ -1580,9 +1580,21 @@ $(function () {
     //     })
 
     $(".tab-count").html(getTotal());
+    $(".ci-count").html(getTotal());
 
-
-
+    $("#settleup").click(function () {
+        location.href = "html/cart.html";
+    })
+	
+	var userName =$.cookie("userName")
+	if(userName){
+		$("#sm-login").html('<a href="javascript:void(0)">欢迎您，'+userName+'</a>&nbsp;&nbsp;<a href="javascript:void(0)" class="esc">退出</a>');
+		$(".esc").click(function(){
+			$.cookie("userName","",{expires:7,path:"/"});
+			$("#sm-login").html(' <a href="html/login.html">你好，请登录</a>&nbsp;&nbsp;<a href="html/register.html" style="color: #f10215;">免费注册</a>');
+		})
+	}
+	
 
 
 

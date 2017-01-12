@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+/*阿里图标*/
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont/iconfont.eot');
+    src: url('iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('iconfont/iconfont.woff') format('woff'),
+    url('iconfont/iconfont.ttf') format('truetype'),
+    url('iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    background-color: #fff;
+    color: #333;
+    font: 12px/1.5  Microsoft YaHei,tahoma,arial,Hiragino Sans GB,sans-serif;
+    width:100%;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+a:hover{
+    color: #c81623;
+}
+em,i{
+    font-style: normal;
+}
+
+/*清除列表样式*/
+ul,ol,li{
+    list-style:none;
+}
+
+/*input去蓝色边框*/
+input{
+    outline:none;
+    border:none;
+}
+button, input {
+    font-family: Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+}
+fieldset,img{
+    border:0 none;
+    vertical-align: middle;
+}
+
+/*清除浮动*/
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: "";
+    height: 0;
+}
+/*设定html和body的宽度为100%*/
+
+
+
+/*头部*/
+.header{
+    width:100%;
+    height: 110px;
+    background: url("../img/lr/headbg.jpg") repeat-x left bottom;
+
+}
+.logo-con{
+    width: 1210px;
+    margin: 0 auto;
+}
+/*Logo*/
+.header .logo{
+    width: 160px;
+    height: 50px;
+    float: left;
+    margin-top: 24px;
+    background: url("../img/lr/icon.png") no-repeat;
+
+}
+.header .desc{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    font-size: 24px;
+    color: #333;
+    padding-left: 30px;
+    margin-top: 34px;
+}
+.have-account{
+    font-size: 16px;
+    float: right;
+    margin-top: 55px;
+    color: #999;
+}
+.have-account a{
+    color: #333;
+}
+/*-----------------------------------京东注册模块---------------------------*/
+.container{
+    width:1210px;
+    margin:0 auto;
+}
+.main{
+    margin:50px auto 60px;
+    width:830px;
+}
+
+.register{
+    width: 400px;
+    float: left;
+}
+/*包裹表单项和对应的提示信息的容器的样式设置*/
+.register-box{
+    position: relative;
+
+    width: 398px;
+    height: 52px;
+    z-index: 13;
+    margin-bottom:30px;
+}
+.register-box label{
+    float: left;
+    width: 90px;
+    height: 52px;
+    line-height: 52px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+/*表单项样式设置*/
+.register-box .box{
+    width:100%;
+    height:100%;
+    line-height: 52px;
+    padding-left: 10px;
+    position: relative;
+    border: solid 1px #ddd;
+}
+.register-box .box.error{
+    border: 1px solid red;
+}
+.register-box .box input{
+    border: 0 none;
+    font-size: 14px;
+    width: 190px;
+    height: 19px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-top: 16px;
+}
+/*验证通过*/
+.register-box .box.right i{
+    width:20px;
+    height: 20px;
+    background: url(../img/lr/right.png) no-repeat center center;
+    position: absolute;
+    top:50%;
+    margin-top: -10px;
+    right: 10px;
+
+}
+/*提示信息样式设置*/
+.register-box .tip {
+    width:100%;
+    line-height: 30px;
+    font-size: 12px;
+}
+.register-box .tip i{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.register-box .tip span{
+    color: #CCCCCC;
+}
+/*提示信息隐藏样式*/
+.register-box .tip.hide{
+    display: none;
+}
+/*提示信息默认样式*/
+.register-box .tip.default i {
+    background: url(../img/lr/default.png) no-repeat center center;
+}
+.register-box .tip.default span{
+    color: #ccc;
+}
+/*提示信息错误样式*/
+.register-box .tip.error i {
+    background: url(../img/lr/error.png) no-repeat center center;
+}
+.register-box .tip.error span{
+    color: red;
+}
+/*提示信息密码弱*/
+.register-box .tip.ruo i {
+    background: url(../img/lr/ruo.png) no-repeat center center;
+}
+/*提示信息密码中*/
+.register-box .tip.zhong i {
+    background: url(../img/lr/zhong.png) no-repeat center center;
+}
+/*提示信息密码中*/
+.register-box .tip.qiang i {
+    background: url(../img/lr/qiang.png) no-repeat center center;
+}
+/*京东用户注册协议*/
+.register-box.xieyi{
+    width:100%;
+    height: 20px;
+
+    /*	background-color: #ccc;*/
+}
+.register-box.xieyi .box{
+    line-height: normal;
+    padding: 0;
+    border: none;
+
+}
+.register-box.xieyi .box.error{
+    line-height: normal;
+    padding: 0;
+    border: 1px solid red;
+}
+.register-box.xieyi .box input{
+    width: auto;
+}
+/*注册*/
+#btn{
+    width: 100%;
+    height: 54px;
+    color: #fff;
+    background: #e22;
+    border: 0;
+    font-size: 16px;
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+    cursor: pointer;
+}
+
+/*验证码*/
+.register-box.yzm{
+    position: relative;
+}
+.register-box.yzm .box input{
+    width: 100px;
+}
+.register-box.yzm .box a{
+    position: absolute;
+    width: 130px;
+    font:bold 22px/54px "微软雅黑";
+    text-align: center;
+    right: 0;
+    color: #333;;
+}
+.register-box.yzm .box a:active{
+    color:#fff ;
+}
+.form-company{
+    float: left;
+    margin-left: 104px;
+    height: 605px;
+    padding-left: 90px;
+    border-left: solid 1px #e6e6e6;
+}
+.company-reg{
+    width: 160px;
+    height: 60px;
+    border-bottom: solid 1px #ddd;
+    margin-left: 30px;
+}
+.company-reg a{
+    display: block;
+    width: 160px;
+    height: 30px;
+}
+.i-company{
+    display: inline-block;
+    width: 30px;
+    height: 29px;
+    vertical-align: middle;
+    margin-right: 15px;
+    background: url("../img/lr/icon.png") no-repeat;
+    background-position: 0 -50px;
+}
+.company-reg a span{
+    vertical-align: middle;
+    font-size:14px;
+}
+.company-reg a:hover span{
+    font-weight: 700;
+    color: #000;
+}
+.inter-cust{
+    width: 160px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.inter-cust a{
+    display: block;
+    width: 170px;
+    height: 40px;
+}
+.i-global{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: text-bottom;
+    margin-right: 15px;
+    float: left;
+    margin-top: 7px;
+    background: url("../img/lr/icon.png") no-repeat;
+background-position: -50px -50px;
+}
+.inter-cust a span{
+    display: inline-block;
+    font-size:14px;
+}
+.inter-cust a:hover span{
+    font-weight:700;
+    color: #000;
+}
+.phone-icon{
+    background: url("../img/lr/phone.jpg") no-repeat;
+    width: 213px;
+    height: 270px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
