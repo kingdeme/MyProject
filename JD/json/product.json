@@ -49,11 +49,11 @@
       "id":"002",
       "imgSrc":"02.jpg",
       "picon":true,
-      "price":"6599.00",
-      "newprice":"6399.00",
-      "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
-      "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
-      "comment":"3.2万+",
+      "price":"5399.00",
+      "newprice":"4999.00",
+      "name":"宏碁(acer)暗影骑士3 VX5 15.6英寸游戏笔记本(i5-7300HQ 8G 1T+128G SSD GTX1050 2G独显 Win10 背光键盘)",
+      "words":"【6期白条免息】全新酷炫模具 GTX10系显卡 128G固态硬盘 背光键盘 牛到没朋友",
+      "comment":"1200+",
       "icons":true,
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
@@ -62,31 +62,15 @@
       "attr":[
         {
           "attrImg":"01.jpg",
-          "attrName":"17.3英寸Y910旗舰【32G内存】"
+          "attrName":"【i7-7700HQ GTX1050 2G独显】"
         },
         {
           "attrImg":"02.jpg",
-          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+          "attrName":"【i5-7300HQ GTX1050 2G独显】"
         },
         {
           "attrImg":"03.jpg",
-          "attrName":"15.6英寸拯救者【i5 纯SSD】"
-        },
-        {
-          "attrImg":"04.jpg",
-          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
-        },
-        {
-          "attrImg":"05.jpg",
-          "attrName":"15.6英寸拯救者【i7 双硬盘】"
-        },
-        {
-          "attrImg":"06.jpg",
-          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
-        },
-        {
-          "attrImg":"07.jpg",
-          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+          "attrName":"【i5-7300HQ GTX1050Ti 4G独显】"
         }
       ]
     },
@@ -147,11 +131,11 @@
       "id":"004",
       "imgSrc":"04.jpg",
       "picon":true,
-      "price":"6599.00",
-      "newprice":"6399.00",
-      "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
-      "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
-      "comment":"3.2万+",
+      "price":"6099.00",
+      "newprice":"5899.00",
+      "name":"联想(Lenovo)小新700电竞版 15.6英寸游戏笔记本电脑(i7-6700HQ 8G 500G GTX950M 4G FHD IPS Office)黑",
+      "words":"【升级4G独显更爽快！】用正版 更体面 预装终身正版Office2016！玩游戏选小新700电竞版！",
+      "comment":"2.5万+",
       "icons":true,
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
@@ -160,31 +144,23 @@
       "attr":[
         {
           "attrImg":"01.jpg",
-          "attrName":"17.3英寸Y910旗舰【32G内存】"
+          "attrName":"i7 8G内存 4G显存 预装Office"
         },
         {
           "attrImg":"02.jpg",
-          "attrName":"15.6英寸拯救者【i5 1T硬盘】"
+          "attrName":"i5 双硬盘 4G显存 预装Office"
         },
         {
           "attrImg":"03.jpg",
-          "attrName":"15.6英寸拯救者【i5 纯SSD】"
+          "attrName":"i5 基础款 4G显存 预装Office"
         },
         {
           "attrImg":"04.jpg",
-          "attrName":"15.6英寸拯救者【i7 1T硬盘】"
+          "attrName":"17.3英寸 i7 4G独显 预装Office"
         },
         {
           "attrImg":"05.jpg",
-          "attrName":"15.6英寸拯救者【i7 双硬盘】"
-        },
-        {
-          "attrImg":"06.jpg",
-          "attrName":"14.0英寸拯救者【i5 1T硬盘】"
-        },
-        {
-          "attrImg":"07.jpg",
-          "attrName":"14.0英寸拯救者【i7 1T硬盘】"
+          "attrName":"17.3英寸 i5 4G独显 预装Office"
         }
       ]
     },
@@ -192,11 +168,11 @@
       "id":"005",
       "imgSrc":"05.jpg",
       "picon":true,
-      "price":"6599.00",
-      "newprice":"6399.00",
-      "name":"联想（Lenovo）拯救者15.6英寸游戏笔记本电脑（i7-6700HQ 8G 1T HDD GTX960M 4G独显 FHD IPS 背光）黑",
-      "words":"【预装价值749元正版office！4G显存升级来袭！】游戏本就选联想拯救者！强大性能炫酷外形！",
-      "comment":"3.2万+",
+      "price":"6399.00",
+      "newprice":"5999.00",
+      "name":"神舟（HASEE）战神Z7M-KP7S1 GTX1050TI 15.6英寸游戏本笔记本电脑 战神Z7M-KP7S1",
+      "words":"8G 256G SSD （1.6 0点开抢，预约价5999  限量300台）",
+      "comment":"5万+",
       "icons":true,
       "iconsimg":"jdzy.png",
       "sImg":"a01.jpg",
